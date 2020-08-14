@@ -8,7 +8,7 @@
     margin-top: 20px;
     width: 200px;
     position: relative;
-    left: 40%;
+    /* left: 40%; */
 }
 
 .clip_container {
@@ -16,7 +16,7 @@
     margin-top: 20px;
     width: 200px;
     position: relative;
-    left: 40%;
+    /* left: 40%; */
     display: inline-block;
     border-bottom: 1px dotted black;
 }
