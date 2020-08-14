@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Grocery list</title>
+        <link rel="stylesheet" href="index.css">
+        <script src="items.js"></script>
+    </head>
+
+    <body onload="arrayReader()">
+
+        <div class="item_container" id="iContainer">
+
+        </div>
+
+        <div class="clip_container" >
+            <!-- <button id="clipboard">Get from clipboard</button> -->
+
+            <label for="inputItems">Paste your list here!</label>
+            <input type="text" id="inp" name="inputItems">
+            <span class="tooltiptext">You need to separate the items with a comma!</span>
+            <button onclick="readItems()">Read the items</button>
+        </div>
+
+    </body>
+</html>
